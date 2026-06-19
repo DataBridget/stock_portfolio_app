@@ -12,6 +12,11 @@ from datetime import datetime
 # 添加项目路径
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+# 确保utils包可被识别
+utils_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'utils')
+if utils_path not in sys.path:
+    sys.path.insert(0, utils_path)
+
 from utils.data_fetcher import (
     get_all_stocks, get_stock_history, get_stock_latest_data,
     get_hs300_stocks, get_sz50_stocks, get_zz500_stocks,
