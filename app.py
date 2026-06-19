@@ -929,27 +929,27 @@ def _render_about():
         <h3 style="color:#1E88E5;">🎯 我们的使命</h3>
         <p style="font-size:15px; line-height:1.8;">
         让每一位投资者都能享受到机构级别的量化投资服务，通过科学的资产配置和风险管理，
-        实现财富的稳健增长。我们相信，科学的投资方法可以帮助投资者在控制风险的同时，最大化投资回报。
+        实现财富的稳健增长。
         </p>
 
         <br>
 
         <h3 style="color:#1E88E5;">🔬 核心技术</h3>
         <ul style="font-size:15px; line-height:2;">
-            <li><strong>现代投资组合理论 (MPT)</strong>：基于Markowitz均值-方差模型，优化风险收益比</li>
-            <li><strong>风险平价模型</strong>：等风险贡献配置，降低组合对单一资产的依赖</li>
-            <li><strong>Black-Litterman模型</strong>：融合市场均衡与投资者观点的贝叶斯方法</li>
-            <li><strong>蒙特卡洛模拟</strong>：大规模随机模拟，评估组合在各种市场环境下的表现</li>
-            <li><strong>大数据分析</strong>：覆盖全部A股上市公司，多维度财务和行情数据分析</li>
-            <li><strong>风险对冲策略</strong>：通过行业分散、风格对冲降低系统性风险</li>
+            <li><strong>现代投资组合理论 (MPT)</strong>：基于Markowitz均值-方差模型</li>
+            <li><strong>风险平价模型</strong>：等风险贡献配置</li>
+            <li><strong>Black-Litterman模型</strong>：融合市场均衡与投资者观点</li>
+            <li><strong>蒙特卡洛模拟</strong>：大规模随机模拟评估</li>
+            <li><strong>大数据分析</strong>：覆盖全部A股上市公司</li>
+            <li><strong>风险对冲策略</strong>：行业分散、风格对冲</li>
         </ul>
 
         <br>
 
         <h3 style="color:#1E88E5;">📊 数据来源</h3>
         <p style="font-size:15px; line-height:1.8;">
-        本平台所有数据均来自 <strong>BaoStock</strong>（www.baostock.com），一个免费、开源的证券数据平台。
-        数据覆盖1990年至今的全部A股历史行情数据、上市公司财务数据等，确保数据的准确性和完整性。
+        本平台所有数据均来自 <strong>BaoStock</strong>（www.baostock.com），免费开源证券数据平台。
+        数据覆盖1990年至今的全部A股历史行情数据。
         </p>
 
         <br>
@@ -958,18 +958,9 @@ def _render_about():
         <div style="background:#FFF3E0; padding:16px; border-radius:8px; border-left:4px solid #FF9800;">
             <p style="font-size:14px; line-height:1.8; color:#E65100;">
             <strong>重要声明：</strong>本平台提供的所有投资组合推荐和分析报告仅供参考，不构成任何投资建议。
-            股票市场存在风险，投资需谨慎。过往业绩不代表未来表现。
+            股票市场存在风险，投资需谨慎。
             </p>
         </div>
-
-        <br>
-
-        <h3 style="color:#1E88E5;">📧 联系我们</h3>
-        <ul style="font-size:15px; line-height:2;">
-            <li>📧 Email: contact@zhitou-portfolio.com</li>
-            <li>🌐 Website: https://zhitou-portfolio.com</li>
-            <li>📱 GitHub: https://github.com/zhitou-portfolio</li>
-        </ul>
     </div>
     """, unsafe_allow_html=True)
 
